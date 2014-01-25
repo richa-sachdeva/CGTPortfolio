@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CameraClass" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAgACCCDAAEAAAAAQCAACAAQggAAxAAAAAgAAA=</HashCode>
+      <FileName>cameraclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CpuClass" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAQAAAAEAIQRAAAAAAAAQAAAAAQAAAAE=</HashCode>
+      <FileName>cpuclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D3DClass" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAApAAAEAAAAUhAQIMEQQcQAAACEApABAEAGABABAI=</HashCode>
+      <FileName>d3dclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontClass" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAESQACIgAAAQABAAAAEQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>fontclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontShaderClass" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAEBABAAARIAAAAGBQACEACAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>fontshaderclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FpsClass" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAQAIAAAACAABAAAAAAAAAAAQAAQAAAE=</HashCode>
+      <FileName>fpsclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsClass" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAyAgAABw8AAAAAQAQEAkgQACAAAABAAAIAAAAE=</HashCode>
+      <FileName>graphicsclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputClass" Collapsed="true">
+    <Position X="3.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAgBAAwAAAQABAxAAQBYlAIAAAEAAQAAImBE=</HashCode>
+      <FileName>inputclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightClass" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAhEAAACAIQCwAgAAAAEAAAAIAAgBASACEACAAAAA=</HashCode>
+      <FileName>lightclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightShaderClass" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAgIQAAAABQAARIAAAAGAUAAEACAAAAAABAAACAAAAA=</HashCode>
+      <FileName>lightshaderclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelClass" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AigkAQASAiACAcAUAAAYAREAAAAAAgAAABAAAACAEAA=</HashCode>
+      <FileName>modelclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PositionClass" Collapsed="true">
+    <Position X="6.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAkAgBCAACCCBABkACAABxACUAEAYkgIQEAgAAAgAAM=</HashCode>
+      <FileName>positionclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenderTextureClass" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAQBAAAEACQAAAEAAAAACAEAIAAAAAAA=</HashCode>
+      <FileName>rendertextureclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundClass" Collapsed="true">
+    <Position X="8" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAAAAAAARCACAAEAQCAQAAAAAAAAAAAAAABYgE=</HashCode>
+      <FileName>soundclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClass" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAQAACAAACSAAgYAAAABQAAAABAAABAc=</HashCode>
+      <FileName>systemclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextClass" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACMJAAIQAAMQAAAQAAQAIAAgEAABAAAAAAAAA=</HashCode>
+      <FileName>textclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureClass" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABQACAAAAIQAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>textureclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimerClass" Collapsed="true">
+    <Position X="9.5" Y="1.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAgAAAAQAAIAAAAAAAAABAAAAACAAAAAAQAAE=</HashCode>
+      <FileName>timerclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranslateShaderClass" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAgAABAACRIAAAAGAUAAEACAAAAAABAAAAAAAEA=</HashCode>
+      <FileName>translateshaderclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelListClass" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEAAAAQAAAAAAAQAAAAgAAAAASAQAAAAAAAA=</HashCode>
+      <FileName>modellistclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitmapClass" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAEAQASAgABAUAQAAAQCRAAQAIACAAAABAAAACAEQA=</HashCode>
+      <FileName>bitmapclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleShaderClass" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAJAAARIAAAAGAUAAEACAAQAAABAAAAAAAAA=</HashCode>
+      <FileName>particleshaderclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleSystemClass" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAUESASBsAAA0Q4BAAQCRAAQEgIGAEAABAgAACCEBE=</HashCode>
+      <FileName>particlesystemclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReflectionShaderClass" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAABAAARIAAAAGQUAAEACAAAAAABAACAAEAAA=</HashCode>
+      <FileName>reflectionshaderclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyDomeClass" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAEAQASAgAAAUBQBAAQAQAAIAAAAAACQJAAIACAEAA=</HashCode>
+      <FileName>skydomeclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SphereModelListClass" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAAEAAACQAAAAAAAQAAAAgABAAACAAAAAAAAAA=</HashCode>
+      <FileName>spheremodellistclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureShaderClass" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIIAAAABAAARIAAAAGAUAAEACAAAAAABAAAAAAEAA=</HashCode>
+      <FileName>textureshaderclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
