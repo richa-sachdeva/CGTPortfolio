@@ -1,0 +1,82 @@
+FUNCTION_BLOCK steer // Block definition
+
+VAR_INPUT
+	distance : REAL;
+	velocity : REAL;
+END_VAR
+
+VAR_OUTPUT
+	steer : REAL;
+END_VAR
+
+
+FUZZIFY distance
+//RANGE := (-100.000 .. 100.000);
+
+TERM farleft := (-150.0, 0.0) (-100.0, 1.0) (-50.0, 0.0);
+TERM left := (-100, 0.0) (-50.0, 1.0) (0.0, 0.0);
+TERM zero := (-50.000, 0.0) (0.0, 1.0)  (50.0, 0.0);
+TERM right := (0.0, 0.0) (50.0, 1.0) (100.0, 0.0);
+TERM farright := (50.0, 0.0) (100.0, 1.0) (150.0, 0.0);
+END_FUZZIFY
+
+FUZZIFY velocity
+//RANGE := (-100.000 .. 100.000);
+
+TERM highleft :=(-150.0, 0.0) (-100.0, 1.0) (-50.0, 0.0);
+TERM left := (-100, 0.0) (-50.0, 1.0) (0.0, 0.0);
+TERM zero := (-50.000, 0.0) (0.0, 1.0)  (50.0, 0.0);
+TERM right := (0.0, 0.0) (50.0, 1.0) (100.0, 0.0);
+TERM highright := (50.0, 0.0) (100.0, 1.0) (150.0, 0.0);
+END_FUZZIFY
+
+DEFUZZIFY steer
+//RANGE := (-100.000 .. 100.000);
+TERM extremeleft := (-125.0, 0.0) (-100.0, 1.0) (-75.0, 0.0);
+TERM largeleft := (-100.0, 0.0) (-75.0, 1.0) (-50.0, 0.0);
+TERM left := (-75.0, 0.0) (-50.0, 1.0) (-25.0, 0.0);
+TERM slightleft := (-50.0, 0.0) (-25.0, 1.0) (0.0, 0.0);
+TERM none := (-25.0, 0.0) (0.0, 1.0) (25.0, 0.0);
+TERM slightright := (0.0, 0.0) (25.0, 1.0) (50.0, 0.0);
+TERM right := (25.0, 0.0) (50.0, 1.0) (75.0, 0.0);
+TERM largeright := (50.0, 0.0) (75.0, 1.0) (100.0, 0.0);
+TERM extremeright := (75.0, 0.0) (100.0, 1.0) (125.0, 0.0);
+
+METHOD : COG;
+//ACCU : MAX;
+DEFAULT := 0;
+END_DEFUZZIFY
+
+RULEBLOCK No1
+AND : MIN;
+ACT : MIN;
+ACCU : MAX; 
+OR : MAX;
+RULE 1 : if distance is farleft and velocity is highleft then steer is extremeleft;
+RULE 2 : if distance is farleft and velocity is left then steer is largeleft;
+RULE 3 : if distance is farleft and velocity is zero then steer is left;
+RULE 4 : if distance is farleft and velocity is right then steer is slightleft;
+RULE 5 : if distance is farleft and velocity is highright then steer is none;
+RULE 6 : if distance is left and velocity is highleft then steer is largeleft;
+RULE 7 : if distance is left and velocity is left then steer is left;
+RULE 8 : if distance is left and velocity is zero then steer is slightleft;
+RULE 9 : if distance is left and velocity is right then steer is none;
+RULE 10 : if distance is left and velocity is highright then steer is slightright;
+RULE 11 : if distance is zero and velocity is highleft then steer is left;
+RULE 12 : if distance is zero and velocity is left then steer is slightleft;
+RULE 13 : if distance is zero and velocity is zero then steer is none;
+RULE 14 : if distance is zero and velocity is right then steer is slightright;
+RULE 15 : if distance is zero and velocity is highright then steer is right;
+RULE 16 : if distance is right and velocity is highleft then steer is slightleft;
+RULE 17 : if distance is right and velocity is left then steer is none;
+RULE 18 : if distance is right and velocity is zero then steer is slightright;
+RULE 19 : if distance is right and velocity is right then steer is right;
+RULE 20 : if distance is right and velocity is highright then steer is largeright;
+RULE 21 : if distance is farright and velocity is highleft then steer is none;
+RULE 22 : if distance is farright and velocity is left then steer is slightright;
+RULE 23 : if distance is farright and velocity is zero then steer is right;
+RULE 24 : if distance is farright and velocity is right then steer is largeright;
+RULE 25 : if distance is farright and velocity is highright then steer is extremeright;
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK
