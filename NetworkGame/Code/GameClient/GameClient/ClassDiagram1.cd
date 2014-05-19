@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAICACAEIAAAgIIAEACAAAQAAAFAAAAgEAUBQA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientPlayer" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIGQCAAIAIAgIIACACBAAQEAABBBAACEAEBAA=</HashCode>
+      <FileName>ClientPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coin" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAICAAAAIAAAgIIFAACAAAAQAAAQCAAAAAEBAA=</HashCode>
+      <FileName>Coin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameNetwork" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gwAIgEBAACIggAJAYAgCoABAAABAABAMIQEBQEQQgAA=</HashCode>
+      <FileName>GameNetwork.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameWindow" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUAAhAEAAjAAAAEBAQgBAwACAAABFABgBgAEgMDOAAQ=</HashCode>
+      <FileName>GameWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerPlayer" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAICACgAAAgAgIIAAACBAAQAAAABAAIAAEEBAA=</HashCode>
+      <FileName>ServerPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Character" Collapsed="true">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAABACBCAACAAAAAAAAAEgABEQAACAgAACAA=</HashCode>
+      <FileName>GameNetwork.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
